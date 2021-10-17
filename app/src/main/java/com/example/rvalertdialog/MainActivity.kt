@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
         val btn = findViewById<Button>(R.id.btn1)
 
-        btn.setOnClickListener {}
+        btn.setOnClickListener {
         val dialog = AlertDialog.Builder(this)
         val dialogView = layoutInflater.inflate(R.layout.login_dialog,null)
         dialog.setView(dialogView)
@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(int)
         }
 
-    }
+    }}
 
 
 
